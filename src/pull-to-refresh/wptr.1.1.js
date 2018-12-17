@@ -6,6 +6,7 @@ export default function WebPullToRefresh() {
 	 * Hold all of the default parameters for the module
 	 * @type {object}
 	 */
+  Hammer.defaults.touchAction = 'pan-y';
 	var defaults = {
 		// ID of the element holding pannable content area
 		contentEl: 'content',
